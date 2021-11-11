@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/idLLScore"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAA1A1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:background="#CDDC39"
+        android:gravity="center"
+        android:text="Your Score is: "
+        android:textColor="#4CAF50"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Share"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Share"
+        app:backgroundTint="#8BC34A" />
+
+    <Button
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Main Page"
+        app:backgroundTint="#8BC34A" />
+</LinearLayout>
